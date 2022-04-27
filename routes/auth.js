@@ -66,8 +66,7 @@ router.post('/signup',
         
         const user = new User(
           {username:username,
-           passphrase:encrypted,
-           age:age
+           passphrase:encrypted
           })
         
         await user.save()
