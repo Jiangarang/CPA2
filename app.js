@@ -102,7 +102,7 @@ app.get("/demopage", (req, res, next) => {
   res.render("demo");
 });
 
-app.get("/sandbox", 
+app.get("/sandbox",
   (req, res, next) => {
         res.render("sandbox");
       }
