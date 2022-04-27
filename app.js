@@ -28,7 +28,7 @@ const mongodb_URI = 'mongodb+srv://michael:aaa@jiangcpa2.ytpbq.mongodb.net/CPA2?
 mongoose.connect( mongodb_URI, { useNewUrlParser: true } );
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {console.log("we are connected!!!")});
+db.once('open', function() {console.log("WE ARE CONNECTED BABYYY!!!")});
 
 
 
